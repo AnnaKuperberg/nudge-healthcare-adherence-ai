@@ -4,15 +4,11 @@
 
 *Non-adherence costs infusion centers 15-25% of scheduled volume. Nudge. captures 30% of those losses—adding 0.5 infusions per patient per year at $1K-$7K marginal revenue each.*
 
-Built with: React 19 · TypeScript · Google Gemini AI · Google Cloud Run
+Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescriptlang.org/) · [Google Gemini AI](https://ai.google.dev/gemini-api) · [Google Cloud Run](https://cloud.google.com/run)
 
 ---
 
-## 🎬 90-Second Demo
-
-
-
-https://github.com/user-attachments/assets/178e8b09-faea-4ea4-aef9-4b061e0aa561
+## 🎬 Demo
 
 *Watch how behavioral science + conversational AI reduces no-shows and optimizes infusion scheduling*
 
@@ -159,7 +155,7 @@ Designed following best practices in:
 
 **Anna Kuperberg, MD**  
 Digital Health Product Leader  
-[LinkedIn](https://linkedin.com/in/annakuperberg) | kuperberg.anna@gmail.com
+[LinkedIn](https://linkedin.com/in/anna_kuperberg_md) | kuperberg.anna@gmail.com
 
 *Physician turning clinical insights into AI products that scale. Built patient adherence platforms, led enterprise healthcare AI implementations, navigated FDA/CE regulatory processes.*
 
