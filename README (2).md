@@ -10,7 +10,9 @@ Built with: React 19 · TypeScript · Google Gemini AI · Google Cloud Run
 
 ## 🎬 90-Second Demo
 
-https://github.com/AnnaKuperberg/healthcare-adherence-ai/assets/YOUR_USER_ID/Nudge_Demo_Video.mp4
+
+
+https://github.com/user-attachments/assets/178e8b09-faea-4ea4-aef9-4b061e0aa561
 
 *Watch how behavioral science + conversational AI reduces no-shows and optimizes infusion scheduling*
 
