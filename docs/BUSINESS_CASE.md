@@ -186,6 +186,6 @@ The Patient Adherence Platform addresses a $100B infusion center market by retur
 
 ---
 
-**For visual walkthrough**: See [90-second demo video](![Nudge Demo](docs/Nudge_Demo_Video.mp4)) and [live demo](https://nudge-922488968064.us-west1.run.app/)
+**For visual walkthrough**: See [90-second demo video](Nudge_Demo_Video.mp4) and [live demo](https://nudge-922488968064.us-west1.run.app/)
 
 **Questions?** Contact Anna Kuperberg, MD at kuperberg.anna@gmail.com
