@@ -29,7 +29,7 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 
 ## Business Impact
 
-![Revenue Recovery Model](docs/images/business-impact.png)
+![Revenue Recovery Model](docs/docs/images/business-impact.png)
 
 **The Model:** Capturing 30% of lost infusions returns **0.5 infusions per patient per year**
 
@@ -51,7 +51,7 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 
 ## How It Works
 
-![How Nudge Works](docs/images/how-it-works.png)
+![How Nudge Works](docs/docs/images/how-it-works.png)
 
 ### 1. **Behavioral Science Engine**
 6 evidence-based nudge strategies personalized to adherence patterns:
