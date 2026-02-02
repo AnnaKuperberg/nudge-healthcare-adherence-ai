@@ -19,7 +19,7 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 
 ## The Problem
 
-![Lost Infusion Volume](docs/images/problem.png)
+![Lost Infusion Volume](docs/docs/images/problem.png)
 
 **Infusion centers lose 15-25% of scheduled volume to non-adherence.** For every 100 Crohn's patients on infliximab receiving 8 infusions/year, 120-200 infusions never happen—empty chairs that could treat waitlist patients or accommodate new referrals.
 
