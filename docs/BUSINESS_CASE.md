@@ -2,19 +2,22 @@
 
 ## Executive Summary
 
-The Patient Adherence Platform addresses a $100B+ market opportunity in infusion center operations by converting preventable no-shows into captured revenue while improving patient outcomes. Using LLM-powered conversational AI with behavioral science principles, the platform achieves 40%+ reduction in preventable no-shows.
+The Patient Adherence Platform addresses a $100B infusion center market by returning lost infusions back to the healthcare system. Infusion centers lose 15-25% of scheduled volume to non-adherence. By capturing 30% of these losses, the platform adds 0.5 infusions per patient per year—generating $500K-$3.5M for a 1,000-patient practice and $5M-$35M at 10,000 patients. Using LLM-powered conversational AI with behavioral science principles, Nudge. turns non-adherence into opportunity.
 
-## The Problem: The Empty Chair
+## The Problem: Lost Infusion Volume
 
 ### Market Context
 - **$100B** infusion center industry in the US
-- **30%** of infusion chairs sit empty due to no-shows and cancellations
-- **Infliximab** (and similar biologics): high volume, high margin, low adherence
+- **15-25%** of scheduled infusions never happen due to non-adherence
+- Every 100 Crohn's patients on infliximab = 120-200 lost infusions per year
+- Empty chairs that could serve waitlist patients or new referrals
 
 ### Clinical Impact
-- **<70%** adherence rate for IV biologics (modifiable through digital intervention)
-- **2-3×** higher hospitalization risk with nonadherence (Crohn's disease)
-- **~90%** higher medical costs for nonadherent patients
+- **15-25%** non-adherence rate for infliximab (industry standard)
+- **All biologics** (~8 infusions/year) show similar patterns
+- **Infliximab patients** represent 20% of all infusion center volume
+- **2-3×** higher hospitalization risk with non-adherence (Crohn's disease)
+- **~90%** higher medical costs for non-adherent patients
 
 ### Root Causes of Nonadherence (All Addressable)
 1. **Logistical friction**: Travel burden, scheduling inflexibility
@@ -39,33 +42,33 @@ The Patient Adherence Platform addresses a $100B+ market opportunity in infusion
 
 ## Financial Model
 
-### Revenue Assumptions (Conservative)
+### The Volume Recovery Model
 
-**Marginal Revenue per Infusion**: $1,000  
-*Note: This is intentionally conservative for modeling purposes. Published data shows:*
-- Hospital-based infusion centers: $3,000-$5,000
-- Ambulatory infusion centers: $2,000-$4,000  
-- Physician office-based: $1,500-$3,000
-- Some high-complexity infusions: $7,000+
+**Core Calculation**:
+- Non-adherence rate: 15-25% of scheduled infusions
+- Nudge. capture rate: 30% of lost infusions
+- **Result**: 0.5 additional infusions returned per patient per year
 
-The $1,000 figure allows for easy multiplication and represents a floor, not a ceiling.
+**Marginal Revenue per Infusion**:
+- Conservative: $1,000
+- Realistic: $3,000-$5,000 (hospital-based)
+- High-complexity: $7,000+
 
-**Baseline No-Show Rate**: 12% (industry standard for chronic disease infusions)
-
-**Capture Rate**: 40% of preventable no-shows (based on digital health intervention studies)
+*Using $1,000 as floor for modeling simplicity*
 
 ### Revenue Recovery by Scale
 
-| Patient Panel | Annual Infusions | Preventable No-Shows | Revenue Recovery* |
-|--------------|------------------|---------------------|------------------|
-| 500 | 3,000 | 360 | $240,000 |
-| 1,000 | 6,000 | 720 | $480,000 |
-| 2,000 | 12,000 | 1,440 | $960,000 |
-| 9,000 | 54,000 | 6,480 | $4.3M |
+| Patient Panel | Returned Infusions/Year | Revenue at $1K | Revenue at $7K |
+|--------------|-------------------------|----------------|----------------|
+| 500 patients | 250 | $250,000 | $1.75M |
+| 1,000 patients | 500 | $500,000 | $3.5M |
+| 5,000 patients | 2,500 | $2.5M | $17.5M |
+| 10,000 patients | 5,000 | $5M | $35M |
 
-*40% capture rate, $1,000/infusion
-
-**Key Metric**: $480 revenue recovery per patient per year
+**Key Metrics**:
+- $500-$3,500 revenue recovery per patient per year
+- ROI improves with scale (larger practices capture more value)
+- Infliximab represents only 20% of infusion center volume—opportunity scales across all biologics
 
 ### Cost Structure
 
@@ -78,7 +81,10 @@ The $1,000 figure allows for easy multiplication and represents a floor, not a c
 - Platform fees: $5-$10/patient/month
 - Support & maintenance: 15-20% of recurring revenue
 
-**Payback Period**: 6-12 months for mid-size practices (500-1,000 patients)
+**Payback Period**: 
+- 1,000 patients: 3-6 months ($500K annual return vs. ~$100K implementation)
+- 10,000 patients: 1-2 months ($5M annual return)
+- ROI scales dramatically with patient volume
 
 ## Implementation Roadmap
 
@@ -90,8 +96,8 @@ The $1,000 figure allows for easy multiplication and represents a floor, not a c
 **Success Criteria**:
 - ≥20% patient opt-in rate
 - ≥40% sustained engagement
-- ≥60% appointment confirmation rate
-- +5-10% arrival rate improvement
+- ≥30% capture rate of lost infusions
+- +0.5 infusions per patient per year
 - 0 safety events
 
 ### Phase 2: Evaluation & Safety (3-5 months)
@@ -111,6 +117,18 @@ The $1,000 figure allows for easy multiplication and represents a floor, not a c
 - Chronic disease management beyond infusions
 
 ## Market Opportunity
+
+### Total Addressable Market
+
+**Infusion Center Industry**: $100B annually
+- **Infliximab**: ~20% of volume, but similar adherence patterns exist across all biologics
+- **All biologics**: ~8 infusions/year with 15-25% non-adherence
+- **Beyond IBD**: Rheumatology (RA, PsA), dermatology (psoriasis), oncology infusions
+
+**Opportunity Scale**:
+- 1,000-patient practice → $500K-$3.5M/year
+- 10,000-patient health system → $5M-$35M/year
+- Each additional indication (adalimumab, ustekinumab, etc.) multiplies opportunity
 
 ### Target Segments
 
@@ -134,12 +152,15 @@ The $1,000 figure allows for easy multiplication and represents a floor, not a c
 - Basic appointment reminders (SMS/email) - no behavioral intelligence
 - EHR-native scheduling - limited engagement capability
 - Patient portals - low adoption rates
+- Generic digital health tools - not built for infusion-specific workflows
 
-**Our Advantages**:
-- Physician-designed clinical workflows
-- LLM-powered personalization
-- Behavioral science foundation
-- Modular, EHR-agnostic architecture
+**Nudge. Advantages**:
+- **Volume-focused design**: Returns lost infusions to the system, not just confirmation rates
+- **Behavioral science engine**: 6 evidence-based strategies personalized to adherence patterns
+- **Autonomous barrier removal**: AI handles transportation, education, copay assistance
+- **Clinical safety integration**: Respects treatment efficacy windows (±3 days for infliximab)
+- **Physician-designed workflows**: Built by MD with enterprise healthcare implementation experience
+- **FHIR-ready architecture**: Modular, EHR-agnostic design
 
 ## Risk Mitigation
 
@@ -165,6 +186,6 @@ The $1,000 figure allows for easy multiplication and represents a floor, not a c
 
 ---
 
-**For detailed implementation timeline and ROI calculator, see**: [Full Presentation](Patient_Adherence_Platform_Presentation.pdf)
+**For visual walkthrough**: See [90-second demo video](https://github.com/AnnaKuperberg/healthcare-adherence-ai/assets/Nudge_Demo_Video.mp4) and [live demo](https://nudge-922488968064.us-west1.run.app/)
 
 **Questions?** Contact Anna Kuperberg, MD at kuperberg.anna@gmail.com
