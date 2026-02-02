@@ -186,6 +186,10 @@ The Patient Adherence Platform addresses a $100B infusion center market by retur
 
 ---
 
-**For visual walkthrough**: See [90-second demo video] (<video src="https://github.com/AnnaKuperberg/healthcare-adherence-ai/raw/main/docs/Nudge_Demo_Video.mp4" controls width="100%"></video>) and [live demo](https://nudge-922488968064.us-west1.run.app/)
+**For visual walkthrough**: See [90-second demo video] 
+
+https://github.com/user-attachments/assets/7d39610c-16ff-4684-b5a8-6ad31d0988ad
+
+and [live demo](https://nudge-922488968064.us-west1.run.app/)
 
 **Questions?** Contact Anna Kuperberg, MD at kuperberg.anna@gmail.com
