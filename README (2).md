@@ -16,7 +16,10 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 
 ---
 
+
 ## The Problem
+
+![Lost Infusion Volume](docs/images/problem.png)
 
 **Infusion centers lose 15-25% of scheduled volume to non-adherence.** For every 100 Crohn's patients on infliximab receiving 8 infusions/year, 120-200 infusions never happen—empty chairs that could treat waitlist patients or accommodate new referrals.
 
@@ -25,6 +28,8 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 ---
 
 ## Business Impact
+
+![Revenue Recovery Model](docs/images/business-impact.png)
 
 **The Model:** Capturing 30% of lost infusions returns **0.5 infusions per patient per year**
 
@@ -39,11 +44,14 @@ Built with: [React 19](https://react.dev/) · [TypeScript](https://www.typescrip
 - All biologics require ~8 infusions/year with similar adherence patterns
 - **Total addressable market:** $100B infusion center industry
 
-📊 [View Full Business Case & ROI Analysis](docs/BUSINESS_CASE.md)
+📊 [Full Business Case & ROI Analysis](docs/BUSINESS_CASE.md)  
+📑 [Executive Summary (PDF)](docs/Patient_Adherence_Platform_Presentation.pdf) - 8-slide pitch deck
 
 ---
 
 ## How It Works
+
+![How Nudge Works](docs/images/how-it-works.png)
 
 ### 1. **Behavioral Science Engine**
 6 evidence-based nudge strategies personalized to adherence patterns:
@@ -155,7 +163,7 @@ Designed following best practices in:
 
 **Anna Kuperberg, MD**  
 Digital Health Product Leader  
-[LinkedIn](https://linkedin.com/in/anna_kuperberg_md) | kuperberg.anna@gmail.com
+[LinkedIn](https://linkedin.com/in/annakuperberg) | kuperberg.anna@gmail.com
 
 *Physician turning clinical insights into AI products that scale. Built patient adherence platforms, led enterprise healthcare AI implementations, navigated FDA/CE regulatory processes.*
 
