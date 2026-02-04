@@ -11,7 +11,7 @@ Non-adherence costs infusion centers 15-25% of scheduled volume. Nudge. demonstr
 
 ## The Problem
 
-![The Problem](docs/images/problem.png)
+![The Problem](docs/docs/images/problem.png)
 
 Infusion centers lose 15-25% of scheduled volume to non-adherence. For every 100 Crohn's patients on infliximab receiving 8 infusions/year, 120-200 infusions never happen—empty chairs that could treat waitlist patients or accommodate new referrals.
 
@@ -21,7 +21,7 @@ Nudge. demonstrates how to return these lost infusions to the system through AI-
 
 ## Business Impact
 
-![Business Impact](docs/images/business-impact.png)
+![Business Impact](docs/docs/images/business-impact.png)
 
 **The Model:** Capturing 30% of lost infusions could return 0.5 infusions per patient per year
 
