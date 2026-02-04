@@ -77,7 +77,7 @@ AI matching engine scans cancellations → reaches out to aligned waitlist patie
 - ✅ **FHIR-Compatible** – Structured patient data models designed for EHR integration
 - ✅ **Multi-Stakeholder Views** – Separate patient and clinic/operations interfaces
 - ✅ **Evidence-Based** – Built on behavioral economics research in healthcare
-- ✅ **Safety-first** – State-of-the-Art Security and Safety Safeguards
+- ✅ **Safety-features** – State-of-the-Art Security and Safety Safeguards
 
 ---
 

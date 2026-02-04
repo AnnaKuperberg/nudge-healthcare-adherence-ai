@@ -1,0 +1,7 @@
+{
+  "name": "nudge.",
+  "description": "An AI-powered patient adherence platform using behavioral economics to optimize medication infusion scheduling and minimize no-shows.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

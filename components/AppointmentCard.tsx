@@ -1,15 +1,16 @@
 
 import React from 'react';
-import { Calendar, Clock, MapPin, CheckCircle2, AlertCircle, UserCircle, Bus, Smartphone, ShieldCheck, Plus } from 'lucide-react';
+import { Calendar, Clock, MapPin, CheckCircle2, AlertCircle, UserCircle, Bus, Smartphone, ShieldCheck, Plus, XCircle } from 'lucide-react';
 import { PatientState } from '../types';
 
 interface AppointmentCardProps {
   patient: PatientState;
   onAddToCalendar: () => void;
   addedToCalendar: boolean;
+  onCancelClick?: () => void;
 }
 
-export const AppointmentCard: React.FC<AppointmentCardProps> = ({ patient, onAddToCalendar, addedToCalendar }) => {
+export const AppointmentCard: React.FC<AppointmentCardProps> = ({ patient, onAddToCalendar, addedToCalendar, onCancelClick }) => {
   const getTransportIcon = () => {
     switch (patient.transportProvider) {
       case 'shuttle': return <Bus className="w-4 h-4" />;
@@ -27,6 +28,22 @@ export const AppointmentCard: React.FC<AppointmentCardProps> = ({ patient, onAdd
       default: return 'Transport';
     }
   };
+
+  if (patient.isCanceled) {
+    return (
+      <div className="bg-white rounded-2xl shadow-sm border border-rose-100 p-6 space-y-4">
+        <div className="flex items-center justify-between">
+          <h3 className="text-sm font-black text-rose-400 uppercase tracking-widest">Appointment Canceled</h3>
+          <span className="px-3 py-1 bg-rose-100 text-rose-700 text-[9px] font-black uppercase tracking-wider rounded-full flex items-center gap-1">
+            <XCircle className="w-3 h-3" /> Canceled
+          </span>
+        </div>
+        <p className="text-xs text-slate-500 font-medium leading-relaxed">
+          Your appointment for {new Date(patient.nextScheduledDate).toLocaleDateString()} has been removed. Clinical staff have been notified for follow-up.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-4">
@@ -83,14 +100,23 @@ export const AppointmentCard: React.FC<AppointmentCardProps> = ({ patient, onAdd
         )}
       </div>
 
-      {patient.isConfirmed && !addedToCalendar && (
+      <div className="flex flex-col gap-2">
+        {patient.isConfirmed && !addedToCalendar && (
+          <button 
+            onClick={onAddToCalendar}
+            className="w-full flex items-center justify-center gap-2 py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-xl text-xs font-bold transition-all border border-blue-100 shadow-sm animate-in zoom-in-95"
+          >
+            <Plus className="w-4 h-4" /> Add to Schedule
+          </button>
+        )}
+
         <button 
-          onClick={onAddToCalendar}
-          className="w-full flex items-center justify-center gap-2 py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-xl text-xs font-bold transition-all border border-blue-100 shadow-sm animate-in zoom-in-95"
+          onClick={onCancelClick}
+          className="w-full flex items-center justify-center gap-2 py-2.5 bg-white hover:bg-rose-50 text-rose-600 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all border border-rose-100 shadow-sm"
         >
-          <Plus className="w-4 h-4" /> Add to Schedule
+          <XCircle className="w-4 h-4" /> Cancel Appointment
         </button>
-      )}
+      </div>
 
       <div className="pt-3 border-t border-slate-50 flex items-center justify-between">
         <span className="text-[10px] font-bold text-slate-400 uppercase">Window Status</span>

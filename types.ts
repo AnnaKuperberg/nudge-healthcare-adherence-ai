@@ -21,10 +21,6 @@ export interface ClinicalNote {
   author: string;
 }
 
-/**
- * Added 'positive_framing' to the NudgeStrategy type to align with patient state initialization 
- * and behavioral logic in geminiService.ts.
- */
 export type NudgeStrategy = 'social_proof' | 'loss_aversion' | 'educational_focus' | 'accountability_focus' | 'positive_framing';
 
 export interface EnabledFeatures {
@@ -58,6 +54,7 @@ export interface PatientState {
   nurseProfile: NurseProfile;
   activeStrategy: NudgeStrategy;
   notes: ClinicalNote[];
+  linkEngagementCount: number; // Added tracking field
   assistanceRequested?: {
     coPay?: boolean;
     staff?: boolean;
