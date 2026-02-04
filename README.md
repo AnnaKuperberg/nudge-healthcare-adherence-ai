@@ -188,7 +188,7 @@ Designed following best practices in:
 **Anna Kuperberg, MD**  
 Digital Health Product Leader
 
-[LinkedIn](https://linkedin.com/in/anna_kuperberg_md) | kuperberg.anna@gmail.com
+[LinkedIn](https://linkedin.com/in/anna-kuperberg-md) | kuperberg.anna@gmail.com
 
 Physician turning clinical insights into AI products that scale. Built patient adherence platforms, led enterprise healthcare AI implementations, navigated FDA/CE regulatory processes.
 
