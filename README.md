@@ -44,7 +44,7 @@ Nudge. demonstrates how to return these lost infusions to the system through AI-
 
 ## How It Works
 
-![How It Works](docs/images/how-it-works.png)
+![How It Works](docs/docs/images/how-it-works.png)
 
 ### 1. Behavioral Science Engine
 Evidence-based nudge strategies personalized to adherence patterns, i.e.:
