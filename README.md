@@ -175,11 +175,11 @@ Most patient reminder systems send generic texts. Nudge. demonstrates a differen
 
 ## Clinical Validation
 
-Designed following best practices in:
-- Behavioral economics in healthcare (Thaler, Kahneman)
-- Clinical decision support systems (HL7 FHIR)
-- Health literacy and patient education (AHRQ guidelines)
-- Regulatory compliance (FDA Software as Medical Device, HIPAA)
+Designed in alignment with:
+- Evidence-based behavioral economics (personalized adherence nudging)
+- Clinical decision support principles and FHIR interoperability
+- AHRQ health literacy standards for patient communication
+- DA SaMD risk frameworks and HIPAA-compliant data handling principles
 
 ---
 
